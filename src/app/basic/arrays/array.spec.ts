@@ -5,9 +5,11 @@ describe('Pruebas de arreglos', () => {
     const res = regresarRobots();
     expect(res.length).toBeGreaterThanOrEqual(3);
   });
+
   it('Esta Megaman y ultrón', () => {
     const res = regresarRobots();
     expect(res).toContain("Megaman");
-    expect(res).toContain("Ultron");
+    expect(res).toContain("Maxinger Z");
   });
+  
 });
