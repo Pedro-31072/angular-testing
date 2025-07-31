@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { MedicosComponent } from './medium/spy/medicos.component';
+import { Medico } from './medium2/medico/medico';
 
 @Component({
   selector: 'app-root',
-  imports: [MedicosComponent],
+  imports: [Medico],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
