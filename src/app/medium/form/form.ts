@@ -7,7 +7,7 @@ export class FormsRegister {
    */
   constructor(private fb:FormBuilder) {
       this.form = this.fb.group({
-        email:["",Validators.required,Validators.email],
+        email:["",[Validators.required,Validators.email]],
         password:["",Validators.required]
       })
   }
