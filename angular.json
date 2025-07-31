@@ -74,6 +74,7 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
+            "codeCoverage": true,
             "assets": [
               {
                 "glob": "**/*",
