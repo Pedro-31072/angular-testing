@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Hospital } from './hospital';
+import { provideZonelessChangeDetection } from '@angular/core';
 
 describe('Hospital', () => {
   let component: Hospital;
@@ -8,6 +9,7 @@ describe('Hospital', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      providers:[provideZonelessChangeDetection()],
       imports: [Hospital]
     })
     .compileComponents();
