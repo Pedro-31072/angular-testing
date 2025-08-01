@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Medico } from './medium2/medico/medico';
-import { IncrementadorComponent } from './medium2/incrementador/incrementador.component';
+import { RouterOutlet } from '@angular/router';
+import { Navbar } from './avanzado/navbar/navbar';
 
 @Component({
   selector: 'app-root',
-  imports: [Medico,IncrementadorComponent],
+  imports: [RouterOutlet, Navbar],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
